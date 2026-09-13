@@ -1,0 +1,77 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "name": "Frontend Architecture",
+      "tagline": "Modern responsive UIs with metadata-driven approach",
+      "skills": [
+        { "name": "ReactJS", "level": "Expert", "highlight": true, "related": ["Next.js", "Redux", "Node.js", "React Native"], "desc": "Component hierarchies, custom hooks, HOCs, Redux (Thunk/Persist), Material UI & Bootstrap" },
+        { "name": "Next.js", "level": "Advanced", "highlight": true, "related": ["ReactJS", "Node.js", "PostgreSQL"], "desc": "App Router, SSR/SSG, Server Actions, Edge runtime, SEO and performance optimization" },
+        { "name": "Vue.js", "level": "Advanced", "highlight": true, "related": ["JavaScript (ES6+)", "Vuetify"], "desc": "Vuetify components, vue-apexcharts, custom form validation, Vuex/Pinia state" },
+        { "name": "JavaScript (ES6+)", "level": "Expert", "highlight": true, "related": ["ReactJS", "Node.js", "Vue.js"], "desc": "Async/await, DOM optimization, Web APIs, functional programming, modular JS" },
+        { "name": "HTML5 / CSS3 / Material UI", "level": "Expert", "highlight": false, "related": ["ReactJS", "Vue.js"], "desc": "MUI theme systems, Bootstrap, responsive design, accessibility, CSS transitions" }
+      ]
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile & Cross-Platform",
+      "tagline": "Cross-platform Android & iOS apps with offline sync",
+      "skills": [
+        { "name": "React Native", "level": "Expert", "highlight": true, "related": ["ReactJS", "SQLite", "Node.js", "Firebase"], "desc": "Cross-platform Android & iOS engineering, Native APIs, Redux Thunk, responsive mobile UI" },
+        { "name": "Offline / Online Sync", "level": "Expert", "highlight": true, "related": ["React Native", "SQLite", "PouchDB"], "desc": "SQLite & PouchDB local journaling, network state detection, automatic server synchronization" }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend & Cloud Services",
+      "tagline": "Secure Node.js microservices, APIs and RBAC",
+      "skills": [
+        { "name": "Node.js & Express.js", "level": "Expert", "highlight": true, "related": ["ReactJS", "PostgreSQL", "MongoDB", "Azure Blob"], "desc": "RESTful API development, CRUD endpoints, reusable utilities, middleware architectures" },
+        { "name": "JWT Security & RBAC", "level": "Expert", "highlight": true, "related": ["Node.js & Express.js", "PostgreSQL"], "desc": "Encrypted payload JWTs, role-based access control, sensitive data masking in logs & DB" },
+        { "name": "Scheduled CRON & Queues", "level": "Advanced", "highlight": false, "related": ["Node.js & Express.js", "Stripe API"], "desc": "Automated billing invoice emails, periodic data synchronization, token expiry validators" },
+        { "name": "Node-RED & Pipelines", "level": "Advanced", "highlight": false, "related": ["Node.js & Express.js", "PostgreSQL"], "desc": "Bulk data insertion workflows, visual pipeline orchestration, automated ETL transforms" }
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Databases & In-Memory",
+      "tagline": "Relational, document, and offline local stores",
+      "skills": [
+        { "name": "PostgreSQL", "level": "Advanced", "highlight": true, "related": ["Node.js & Express.js", "Next.js"], "desc": "Relational schema design, query optimization, data masking, indexing strategies" },
+        { "name": "MongoDB", "level": "Advanced", "highlight": false, "related": ["Node.js & Express.js", "ReactJS"], "desc": "Document storage, aggregation pipelines, flexible schemas, multi-tenant DB" },
+        { "name": "SQLite & PouchDB", "level": "Expert", "highlight": true, "related": ["React Native", "Offline / Online Sync"], "desc": "Local client databases, encrypted storage, background delta synchronization" },
+        { "name": "Firebase Realtime DB", "level": "Advanced", "highlight": false, "related": ["ReactJS", "React Native"], "desc": "Real-time incoming call/message events, multi-device login prevention, live listeners" }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud, Real-Time & Integrations",
+      "tagline": "Cloud storage, WebRTC video calling & enterprise APIs",
+      "skills": [
+        { "name": "Azure Blob Storage", "level": "Advanced", "highlight": true, "related": ["Node.js & Express.js"], "desc": "Secure document/image attachment management, SAS tokens, encrypted blob URLs" },
+        { "name": "AWS (EC2 & SES)", "level": "Advanced", "highlight": false, "related": ["Node.js & Express.js", "ReactJS"], "desc": "EC2 compute hosting, automated transactional email dispatch via AWS SES" },
+        { "name": "Agora Video/Audio SDK", "level": "Advanced", "highlight": true, "related": ["ReactJS", "Firebase Realtime DB"], "desc": "WebRTC real-time audio/video streaming, ICU tele-critical care connectivity" },
+        { "name": "Stripe & E-Commerce APIs", "level": "Advanced", "highlight": false, "related": ["Node.js & Express.js"], "desc": "Stripe subscriptions & billing, Shopify, Greenbits, and QuickBooks integrations" }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "Tools & Workflows",
+      "tagline": "Agile environment and version control",
+      "skills": [
+        { "name": "Git, SourceTree & GitHub", "level": "Expert", "highlight": false, "related": ["Node.js & Express.js"], "desc": "GitFlow workflows, branch management, pull requests, code reviews" },
+        { "name": "Postman & JIRA", "level": "Expert", "highlight": false, "related": ["Node.js & Express.js"], "desc": "API contract testing, environment mocks, sprint task tracking, Agile ceremonies" },
+        { "name": "Formik & Yup Validation", "level": "Expert", "highlight": false, "related": ["ReactJS"], "desc": "Dynamic complex form schemas, conditional client-side validation, error handling" }
+      ]
+    }
+  ],
+  "ecosystemConnections": [
+    { "from": "ReactJS", "to": "Node.js & Express.js", "label": "Full-Stack Web Architecture" },
+    { "from": "ReactJS", "to": "React Native", "label": "Shared Component & Logic Paradigms" },
+    { "from": "React Native", "to": "SQLite & PouchDB", "label": "Offline-First Local Storage" },
+    { "from": "Node.js & Express.js", "to": "PostgreSQL", "label": "Transactional Relational Layer" },
+    { "from": "Node.js & Express.js", "to": "Azure Blob Storage", "label": "Secure SAS Token Attachments" },
+    { "from": "ReactJS", "to": "Agora Video/Audio SDK", "label": "WebRTC Tele-Critical Video" },
+    { "from": "Node.js & Express.js", "to": "Stripe & E-Commerce APIs", "label": "Shopify / QuickBooks / Stripe" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "siteName": "Thamaraiselvan P — Enterprise Full-Stack Developer",
+  "siteTitle": "Thamaraiselvan P — Senior Enterprise Full-Stack Architect",
+  "siteDescription": "Portfolio of an Enterprise Full Stack Developer specializing in React, Next.js, React Native, Node.js, RegTech, FinTech, and Healthcare real-time systems.",
+  "siteUrl": "https://developer-portfolio.com",
+  "theme": {
+    "accentColor": "#6366f1",
+    "accentSecondary": "#06b6d4",
+    "animationIntensity": "immersive",
+    "enableCursor": true,
+    "enableParticles": true,
+    "enableSmoothScroll": true
+  },
+  "navLinks": [
+    { "label": "PROJECTS", "href": "#projects" },
+    { "label": "CAPABILITIES", "href": "#capabilities" },
+    { "label": "STACK", "href": "#stack" },
+    { "label": "PHILOSOPHY", "href": "#philosophy" },
+    { "label": "EXPERIENCE", "href": "#experience" },
+    { "label": "CONTACT", "href": "#contact" }
+  ]
+}

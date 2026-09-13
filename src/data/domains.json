@@ -1,0 +1,92 @@
+[
+  {
+    "id": "casino",
+    "number": "01",
+    "title": "Casino Management Systems",
+    "tagline": "Real-time vendor synchronization, PII data masking & RBAC compliance",
+    "description": "Architecting secure backend microservices for casino gaming operations with strict regulatory validation, OPAC/DML business logic, Azure Blob SAS tokens, and automated cron synchronization.",
+    "keyCapabilities": [
+      "Dynamic Entity Validation (SSN / Patron / Address Checks)",
+      "Automated Sensitive Data Masking in Database & Logging",
+      "Real-Time Database Sync with 3rd-Party Vendor APIs",
+      "Azure Blob Storage Secure Attachments with SAS Tokens"
+    ],
+    "relatedProjectId": "casino-management-system",
+    "stats": "Multi-Vendor Sync • Masked PII Security"
+  },
+  {
+    "id": "healthcare",
+    "number": "02",
+    "title": "Tele-Critical Care & Telemedicine",
+    "tagline": "Agora WebRTC video/audio calls, Firebase event sinks & ICU vitals tracking",
+    "description": "Building mission-critical telemedicine infrastructure connecting remote specialists to local ICU bedsides with live audio/video streaming, Firebase Realtime DB incoming event handling, and multi-device collision protection.",
+    "keyCapabilities": [
+      "Agora SDK Multi-Party Video & Audio Connectivity",
+      "Firebase Realtime Database Incoming Event Handlers",
+      "Custom Material UI In-App Notification SnackBar System",
+      "Anti-Collision Session Guards for Hospital Workstations"
+    ],
+    "relatedProjectId": "tele-critical-care",
+    "stats": "Instant WebRTC Setup • Live ICU Telemetry"
+  },
+  {
+    "id": "wealth",
+    "number": "03",
+    "title": "Wealth & Asset Management",
+    "tagline": "AES256 local encrypted state, interactive financial charts & Formik validation",
+    "description": "Engineering high-net-worth portfolio management platforms with AES256-encrypted Redux Persist storage, dynamic chart widgets, viewport-height pagination, and responsive Material-UI design systems.",
+    "keyCapabilities": [
+      "Client-Side AES256 Encrypted State Persistence",
+      "Interactive Financial Dashboard Chart Widgets",
+      "Dynamic Formik & Yup Multi-Step Validation",
+      "Viewport-Adaptive Lazy Loading & Pagination"
+    ],
+    "relatedProjectId": "wealth-management",
+    "stats": "Global HNW Clients • AES256 Encryption"
+  },
+  {
+    "id": "therapy",
+    "number": "04",
+    "title": "Behavior Analysis & Therapy Mobile",
+    "tagline": "Offline-first SQLite session journaling & 1-to-N duration tracking",
+    "description": "Developing offline-first mobile apps on Android and iOS for clinical therapy practitioners with native OS bridges, 1-to-N behavior timer recording, and automatic delta synchronization upon reconnecting.",
+    "keyCapabilities": [
+      "Offline-First SQLite Session Journaling",
+      "Real-Time 1-to-N Behavior Duration Multi-Timers",
+      "Cross-Platform Native Modules for Android & iOS",
+      "Automatic Server Re-Synchronization Daemon"
+    ],
+    "relatedProjectId": "behavior-tracker",
+    "stats": "100% Offline Resilience • Complete Android Engine"
+  },
+  {
+    "id": "inventory",
+    "number": "05",
+    "title": "Retail Inventory & Auditing",
+    "tagline": "Node-RED bulk pipelines, Shopify/QuickBooks sync & Stripe subscriptions",
+    "description": "Designing multi-store inventory auditing systems with Node-RED ETL pipelines, scheduled monthly/yearly billing crons, spreadsheet data ingestion, and multi-channel synchronization.",
+    "keyCapabilities": [
+      "Node-RED High-Volume Bulk Insertion Engine",
+      "Multi-Channel Sync (Shopify, QuickBooks, Greenbits)",
+      "Stripe Subscription-Tier Access Governance",
+      "Automated Monthly Billing & Audit Report Crons"
+    ],
+    "relatedProjectId": "inventory-management-auditing",
+    "stats": "Multi-Vendor Integration • Automated Crons"
+  },
+  {
+    "id": "enterprise",
+    "number": "06",
+    "title": "Enterprise Operations & Analytics",
+    "tagline": "Vue.js / Vuetify dashboards, Microsoft OAuth SSO & vue-apexcharts",
+    "description": "Building centralized job tracking portals and administrative operational dashboards with enterprise Microsoft OAuth authentication, custom validation forms, and dynamic Vue ApexCharts.",
+    "keyCapabilities": [
+      "Microsoft OAuth Single Sign-On (SSO)",
+      "Vue.js & Vuetify Modular Reusable Component Ecosystem",
+      "Dynamic Throughput Visualization via Vue-ApexCharts",
+      "Custom Workflow Form Actions & Validation"
+    ],
+    "relatedProjectId": "admin-dashboard-jobs",
+    "stats": "SSO Authenticated • Real-Time Job Tracking"
+  }
+]

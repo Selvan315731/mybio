@@ -1,0 +1,16 @@
+[
+  {
+    "degree": "MCA (Master of Computer Applications)",
+    "institution": "Kongu Engineering College, Erode",
+    "period": "Completed",
+    "location": "Tamil Nadu, India",
+    "details": "Graduated with aggregate 6.85 CGPA. Comprehensive specialization in Software Engineering, Advanced Database Management, Object-Oriented Analysis & Design, and Enterprise Web Applications."
+  },
+  {
+    "degree": "Continuous Professional Specializations",
+    "institution": "Full Stack & Cloud Ecosystems",
+    "period": "Continuous",
+    "location": "Global",
+    "details": "Specialized in React, React Native, Node.js Microservices, Offline Sync Architectures (SQLite/PouchDB), Firebase Realtime Engines, and Azure Cloud."
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "name": "THAMARAISELVAN P",
+  "role": "Enterprise Full-Stack Developer",
+  "location": "India",
+  "phone": "+91 8870230519",
+  "email": "selvan315731@gmail.com",
+  "availability": "Available for Select Opportunities",
+  "yearsOfExperience": "6+",
+  "headline": "Building Enterprise Applications That Turn Complex Business Rules Into Simple User Experiences.",
+  "heroHeadline": "I Build Complex Systems.\nI Make Them Feel Simple.",
+  "supportingStatement": "Full-Stack Developer focused on scalable frontend architecture, backend services, dynamic workflows, integrations, data-driven applications, security, compliance, and enterprise-grade user experiences.",
+  "heroSubheading": "Full-Stack Developer building enterprise applications across Casino Compliance, Wealth Management, Healthcare, POS, Inventory, and AI-powered workflows.",
+  "capabilities": [
+    "Full-Stack Web Application Development",
+    "React.js / Next.js",
+    "React Native",
+    "Vue.js",
+    "Node.js / Express.js",
+    "REST API Architecture",
+    "PostgreSQL / MongoDB",
+    "Dynamic & Metadata-Driven Applications",
+    "Role-Based & Permission-Based Access",
+    "Authentication & Authorization",
+    "Third-Party API Integrations",
+    "Real-Time Applications",
+    "Healthcare Applications",
+    "Financial & Wealth Platforms",
+    "Casino Compliance Applications",
+    "POS & Inventory Systems",
+    "AI-Assisted Business Workflows",
+    "Cloud & File Storage",
+    "Reporting & Analytics",
+    "Performance Optimization"
+  ],
+  "about": {
+    "title": "ARCHITECTING ROBUST ENTERPRISE PLATFORMS FROM ANALYSIS TO PRODUCTION.",
+    "paragraphs": [
+      "With over 6 years of professional IT experience in analysis, design, development, and audits of enterprise applications, I specialize in engineering systems where the user interface is an intuitive surface over intricate business rules, data pipelines, and regulatory workflows.",
+      "My production track record spans mission-critical Tele-Critical Care patient telemetry (Agora WebRTC & Firebase), high-throughput Casino Compliance APIs (Node.js, PostgreSQL & Azure Blob with data masking and FinCEN-aligned CTR/SAR workflows), AES256-encrypted Wealth Management platforms (React & React Native), POS Retail Multi-Tenant ERP with warehouse stock reduction, and multi-vendor Inventory Auditing (Shopify, QuickBooks & Greenbits).",
+      "I excel at designing metadata-driven architectures, reusable component libraries with HOCs, offline-first SQLite/PouchDB mobile synchronization engines, and secure tenant-aware JWT/RBAC backend services."
+    ],
+    "philosophy": [
+      {
+        "keyword": "REUSABLE ARCHITECTURE.",
+        "description": "Build once, reuse across modules with metadata schemas, higher-order components, and strict contract typing."
+      },
+      {
+        "keyword": "DYNAMIC SYSTEMS.",
+        "description": "Design applications that adapt dynamically through configuration and metadata rather than brittle hardcoding."
+      },
+      {
+        "keyword": "BUSINESS LOGIC.",
+        "description": "Translate complex regulatory, operational, and financial requirements into clean, testable, and maintainable workflows."
+      },
+      {
+        "keyword": "SECURITY BY DESIGN.",
+        "description": "Treat authentication, authorization, payload encryption, sensitive data masking, and audit logging as foundational concerns."
+      },
+      {
+        "keyword": "PERFORMANCE & UX.",
+        "description": "Complex backend workflows and distributed databases should still feel effortless, instantaneous, and simple to the end user."
+      }
+    ]
+  },
+  "metrics": [
+    { "value": "06+", "label": "Years Experience", "description": "Professional IT enterprise development and architecture" },
+    { "value": "08", "label": "Enterprise Systems", "description": "Casino AML, Wealth, Healthcare, POS ERP, Inventory, ABA, Tele-Care & Admin" },
+    { "value": "100%", "label": "Offline-First Sync", "description": "Zero-loss data synchronization in mobile and tablet applications" },
+    { "value": "MCA", "label": "Engineering Degree", "description": "Master of Computer Applications from Kongu Engineering College" }
+  ]
+}

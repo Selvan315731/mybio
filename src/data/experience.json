@@ -1,0 +1,44 @@
+[
+  {
+    "company": "Enterprise Software Solutions",
+    "role": "Senior Full Stack & Backend Developer",
+    "location": "India",
+    "period": "2022 - PRESENT",
+    "type": "Full-Time",
+    "technologies": ["Node.js", "Express.js", "React", "Next.js", "Azure Blob Storage", "PostgreSQL", "JWT & RBAC", "Cron Jobs"],
+    "description": "Leading backend and full-stack development for mission-critical enterprise systems, including the Casino Management System and high-availability RESTful microservices.",
+    "achievements": [
+      "Architected secure RESTful APIs with RBAC, dynamic entity validation (OPAC/DML, SSN/address checks), and automated sensitive data masking in logs and DB layers.",
+      "Integrated Azure Blob Storage with SAS tokens, replacing database URLs with secure, expiring blob links for attachments.",
+      "Developed scheduled Node.js cron jobs for time-based updates, automatic expiry validations, and real-time data synchronization with 3rd-party vendor APIs."
+    ]
+  },
+  {
+    "company": "Digital Solutions & Healthcare Tech",
+    "role": "Full Stack & Cross-Platform Engineer",
+    "location": "India",
+    "period": "2020 - 2022",
+    "type": "Full-Time",
+    "technologies": ["React", "React Native", "Firebase Realtime DB", "Agora SDK", "Material UI", "Redux Thunk", "Java Backend"],
+    "description": "Engineered real-time Tele-Critical Care patient monitoring systems and international wealth management interfaces.",
+    "achievements": [
+      "Integrated Agora WebRTC library for low-latency video and audio connectivity between remote specialists and ICU bedside clinicians.",
+      "Engineered Firebase Realtime DB incoming event sinks to handle emergency calls and prevent concurrent multi-device logins.",
+      "Built Wealth Management dashboard widgets and Redux Persist state with AES256 encryption for Dubai-based high-net-worth clients."
+    ]
+  },
+  {
+    "company": "Product Engineering & Mobile Systems",
+    "role": "Full Stack & Mobile Developer",
+    "location": "India",
+    "period": "2018 - 2020",
+    "type": "Full-Time",
+    "technologies": ["React", "React Native", "Vue.js", "Node.js", "PostgreSQL", "SQLite", "Node-RED", "Stripe API"],
+    "description": "Developed offline-first mobile therapy applications, retail inventory auditing platforms, and administrative dashboards.",
+    "achievements": [
+      "Built the Android version of the Applied Behavior Analysis (ABA) Therapy app from scratch with offline-first SQLite session journaling.",
+      "Implemented Node-RED bulk insertion pipelines for multi-store retail inventory synchronization across Shopify, Greenbits, and QuickBooks.",
+      "Developed Vue.js enterprise admin dashboard with Microsoft OAuth SSO and vue-apexcharts data visualization."
+    ]
+  }
+]

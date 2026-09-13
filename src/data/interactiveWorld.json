@@ -1,0 +1,143 @@
+{
+  "enabled": true,
+  "catCount": 5,
+  "ratCount": 2,
+  "maxCats": 10,
+  "maxRats": 3,
+  "interactionEnabled": true,
+  "dragEnabled": true,
+  "multiSelectEnabled": true,
+  "fightingEnabled": true,
+  "ratChaseEnabled": true,
+  "climbingEnabled": true,
+  "sleepingEnabled": true,
+  "yarnEnabled": true,
+  "soundEnabled": false,
+  "mobileCatCount": 3,
+  "mobileRatCount": 1,
+  "cats": [
+    {
+      "id": "cat-01",
+      "name": "Milo",
+      "color": "orange",
+      "personality": "playful",
+      "speed": 1.15,
+      "curiosity": 0.85,
+      "sleepiness": 0.3,
+      "aggression": 0.25
+    },
+    {
+      "id": "cat-02",
+      "name": "Shadow",
+      "color": "black",
+      "personality": "curious",
+      "speed": 1.1,
+      "curiosity": 0.95,
+      "sleepiness": 0.2,
+      "aggression": 0.4
+    },
+    {
+      "id": "cat-03",
+      "name": "Luna",
+      "color": "white",
+      "personality": "sleepy",
+      "speed": 0.85,
+      "curiosity": 0.5,
+      "sleepiness": 0.8,
+      "aggression": 0.1
+    },
+    {
+      "id": "cat-04",
+      "name": "Smokey",
+      "color": "gray",
+      "personality": "energetic",
+      "speed": 1.3,
+      "curiosity": 0.8,
+      "sleepiness": 0.2,
+      "aggression": 0.35
+    },
+    {
+      "id": "cat-05",
+      "name": "Biscuit",
+      "color": "calico",
+      "personality": "shy",
+      "speed": 0.95,
+      "curiosity": 0.6,
+      "sleepiness": 0.5,
+      "aggression": 0.15
+    },
+    {
+      "id": "cat-06",
+      "name": "Hazel",
+      "color": "brown",
+      "personality": "curious",
+      "speed": 1.05,
+      "curiosity": 0.9,
+      "sleepiness": 0.4,
+      "aggression": 0.2
+    },
+    {
+      "id": "cat-07",
+      "name": "Ginger",
+      "color": "orange",
+      "personality": "energetic",
+      "speed": 1.25,
+      "curiosity": 0.75,
+      "sleepiness": 0.25,
+      "aggression": 0.3
+    },
+    {
+      "id": "cat-08",
+      "name": "Felix",
+      "color": "black",
+      "personality": "playful",
+      "speed": 1.1,
+      "curiosity": 0.8,
+      "sleepiness": 0.35,
+      "aggression": 0.2
+    },
+    {
+      "id": "cat-09",
+      "name": "Snowy",
+      "color": "white",
+      "personality": "shy",
+      "speed": 0.9,
+      "curiosity": 0.4,
+      "sleepiness": 0.6,
+      "aggression": 0.1
+    },
+    {
+      "id": "cat-10",
+      "name": "Oreo",
+      "color": "calico",
+      "personality": "aggressive",
+      "speed": 1.2,
+      "curiosity": 0.7,
+      "sleepiness": 0.3,
+      "aggression": 0.65
+    }
+  ],
+  "rats": [
+    {
+      "id": "rat-01",
+      "name": "Pip",
+      "color": "gray",
+      "speed": 1.6,
+      "bravery": 0.4
+    },
+    {
+      "id": "rat-02",
+      "name": "Squeak",
+      "color": "brown",
+      "speed": 1.8,
+      "bravery": 0.25
+    },
+    {
+      "id": "rat-03",
+      "name": "Nibbles",
+      "color": "white",
+      "speed": 1.7,
+      "bravery": 0.5
+    }
+  ]
+}
