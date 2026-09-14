@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Calendar, MapPin, CheckCircle2 } from "lucide-react";
 import experienceData from "@/data/experience.json";
+import profileData from "@/data/profile.json";
 
 export default function ExperienceTimeline() {
   const containerRef = useRef(null);
@@ -35,7 +36,7 @@ export default function ExperienceTimeline() {
             Production Track Record
           </h2>
           <p className="text-muted-foreground text-sm sm:text-base font-normal mt-2 max-w-xl">
-            6+ years delivering enterprise architectures, high-availability RESTful microservices, and offline-first mobile applications.
+            {profileData.yearsOfExperience} years delivering enterprise architectures, high-availability RESTful microservices, and offline-first mobile applications.
           </p>
         </div>
 

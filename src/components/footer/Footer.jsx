@@ -75,12 +75,7 @@ export default function Footer() {
               >
                 <span>{profileData.phone}</span>
               </a>
-              <a
-                href="#contact"
-                className="text-accent font-bold hover:underline inline-block pt-1"
-              >
-                Direct Project Dispatch →
-              </a>
+
             </div>
           </div>
 
